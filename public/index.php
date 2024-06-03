@@ -7,6 +7,7 @@ include HEADER_PATH;
     <section id="welcome">
         <h2>Willkommen!</h2>
         <p>Dies ist meine persönliche Website. Hier finden Sie Informationen über mich und meine Arbeit.</p>
+        <p>Diese soll ein Spanendes Projekt werden</p>
     </section>
 </main>
 
