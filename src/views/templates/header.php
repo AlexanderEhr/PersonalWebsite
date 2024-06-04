@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <title><?php echo getPageTitle(); ?></title>
-    <link rel="stylesheet" href="css/styles.css">
+    <?php loadStyles(); ?>
 </head>
 <body>
     <header>

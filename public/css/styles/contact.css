@@ -1,0 +1,29 @@
+#contact {
+    padding: 20px;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact-links, #downloads {
+    margin-top: 20px;
+}
+
+#contact-links ul, #downloads ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-links ul li, #downloads ul li {
+    margin-bottom: 10px;
+}
+
+#contact-links ul li a, #downloads ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact-links ul li a:hover, #downloads ul li a:hover {
+    text-decoration: underline;
+}

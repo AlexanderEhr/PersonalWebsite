@@ -12,7 +12,19 @@ MyPersonalWebsite/
 |   ├── games.php
 │   ├── images/
 │   │   └── (Bilder für die Website)
+│   ├── documents/
+│   │   └── (PDF-Dateien für den Download)
 │   ├── css/
+│   │   ├── styles/
+│   │   │   ├── about.css
+│   │   │   ├── ausbildung.css
+│   │   │   ├── contact.css
+│   │   │   ├── footer.css
+│   │   │   ├── games.css
+│   │   │   ├── global.css
+│   │   │   ├── header.css
+│   │   │   ├── index.css
+│   │   │   └── (weitere CSS-Dateien)
 │   │   ├── styles.css
 │   │   └── (weitere CSS-Dateien)
 │   ├── js/
@@ -34,6 +46,7 @@ MyPersonalWebsite/
 │   │   │   └── footer.php
 │   │   └── (weitere View-Dateien)
 │   ├── helpers/
+|   |   ├── loadStyles.php
 │   │   ├── utility.php
 │   │   └── titelFunktion.php
 │   └── (weitere PHP-Hilfsklassen)
