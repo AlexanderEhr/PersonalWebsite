@@ -12,8 +12,9 @@
             <ul>
                 <li><a href="index.php">Startseite</a></li>
                 <li><a href="about.php">Über mich</a></li>
-                <li><a href="portfolio.php">Portfolio</a></li>
+                <li><a href="portfolio.php">Ausbildung</a></li>
                 <li><a href="contact.php">Kontakt</a></li>
+                <li><a href="games.php">Games</a></li>
             </ul>
         </nav>
     </header>

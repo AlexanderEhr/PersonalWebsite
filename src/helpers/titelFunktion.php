@@ -13,6 +13,7 @@ function getPageTitle() {
         'about' => 'Über mich',
         'portfolio' => 'Portfolio',
         'contact' => 'Kontakt',
+        'games'=> 'Games & Code',
         // Weitere Titel hier hinzufügen
     ];
 

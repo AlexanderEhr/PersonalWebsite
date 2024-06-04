@@ -9,6 +9,7 @@ MyPersonalWebsite/
 │   ├── about.php
 │   ├── portfolio.php
 │   ├── contact.php
+|   ├── games.php
 │   ├── images/
 │   │   └── (Bilder für die Website)
 │   ├── css/
@@ -29,10 +30,12 @@ MyPersonalWebsite/
 │   │   └── (weitere Model-Klassen)
 │   ├── views/
 │   │   ├── templates/
-│   │   │   └── (PHP-Vorlagendateien)
+│   │   │   ├── header.php
+│   │   │   └── footer.php
 │   │   └── (weitere View-Dateien)
 │   ├── helpers/
-│   │   └── utility.php
+│   │   ├── utility.php
+│   │   └── titelFunktion.php
 │   └── (weitere PHP-Hilfsklassen)
 │
 ├── tests/
