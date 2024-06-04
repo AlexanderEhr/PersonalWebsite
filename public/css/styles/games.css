@@ -1,0 +1,91 @@
+/* Globale Stile für den Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile für das Main-Tag */
+main {
+    padding: 20px;
+}
+
+/* Stile für die Games-Sektion */
+.games-section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.games-section h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Stile für die einzelnen Spiele */
+.game {
+    margin-bottom: 30px;
+}
+
+.game h2 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.game p {
+    color: #555555;
+}
+
+.game a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.game a:hover {
+    text-decoration: underline;
+}
+
+/* Code Beispiele */
+.code-examples {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.code-examples section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.code-examples h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.code-examples pre {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+/* Responsive Design für kleinere Bildschirme */
+@media (max-width: 768px) {
+    .games-section {
+        padding: 15px;
+    }
+
+    .game {
+        margin-bottom: 20px;
+    }
+
+    .code-examples section {
+        padding: 10px;
+    }
+}

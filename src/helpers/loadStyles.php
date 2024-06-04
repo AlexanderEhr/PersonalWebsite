@@ -5,13 +5,12 @@ function loadStyles() {
     echo '<!-- ' . GLOBAL_CSS . ' -->';
     echo '<!-- ' . HEADER_CSS . ' -->';
     echo '<!-- ' . FOOTER_CSS . ' -->';
-    echo '<!-- ' . STYLE_CSS . ' -->';
+    
 
     // Verwenden Sie die bereits definierten Pfade aus der config.php
     echo '<link rel="stylesheet" href="' . GLOBAL_CSS . '">';
     echo '<link rel="stylesheet" href="' . HEADER_CSS . '">';
     echo '<link rel="stylesheet" href="' . FOOTER_CSS . '">';
-    echo '<link rel="stylesheet" href="' . STYLE_CSS . '">'; // für den Übergang
 
     // Bedingte Einbindung von CSS-Dateien basierend auf der aktuellen Seite
     $scriptName = basename($_SERVER['SCRIPT_FILENAME'], '.php');
@@ -19,7 +18,7 @@ function loadStyles() {
         case 'about':
             echo '<link rel="stylesheet" href="' . ABOUT_CSS . '">';
             break;
-        case 'ausbildung':
+        case 'education':
             echo '<link rel="stylesheet" href="' . AUSBILDUNG_CSS . '">';
             break;
         case 'contact':

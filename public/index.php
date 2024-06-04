@@ -4,10 +4,10 @@ include HEADER_PATH;
 ?>
 
 <main>
-    <section id="welcome">
+    <section id="welcome" class="welcome-section">
         <h2>Willkommen!</h2>
         <p>Dies ist meine persönliche Website. Hier finden Sie Informationen über mich und meine Arbeit.</p>
-        <p>Diese soll ein Spanendes Projekt werden</p>
+        <p>Diese soll ein spannendes Projekt werden</p>
     </section>
 </main>
 
