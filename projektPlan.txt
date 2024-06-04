@@ -7,17 +7,19 @@ MyPersonalWebsite/
 ├── public/
 │   ├── index.php
 │   ├── about.php
-│   ├── portfolio.php
+│   ├── education.php
 │   ├── contact.php
-|   ├── games.php
+│   ├── games.php
 │   ├── images/
-│   │   └── (Bilder für die Website)
+│   │   ├── probebild1.png
+│   │   ├── probebild2.png
+│   │   └── (weitere Bilder für die Website)
 │   ├── documents/
 │   │   └── (PDF-Dateien für den Download)
 │   ├── css/
 │   │   ├── styles/
 │   │   │   ├── about.css
-│   │   │   ├── ausbildung.css
+│   │   │   ├── education.css
 │   │   │   ├── contact.css
 │   │   │   ├── footer.css
 │   │   │   ├── games.css
@@ -46,7 +48,7 @@ MyPersonalWebsite/
 │   │   │   └── footer.php
 │   │   └── (weitere View-Dateien)
 │   ├── helpers/
-|   |   ├── loadStyles.php
+│   │   ├── loadStyles.php
 │   │   ├── utility.php
 │   │   └── titelFunktion.php
 │   └── (weitere PHP-Hilfsklassen)
@@ -59,6 +61,7 @@ MyPersonalWebsite/
 ├── package.json
 ├── README.md
 └── TODO.md
+
 
 2. Funktionen und Seiten
 

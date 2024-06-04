@@ -19,7 +19,7 @@ function loadStyles() {
             echo '<link rel="stylesheet" href="' . ABOUT_CSS . '">';
             break;
         case 'education':
-            echo '<link rel="stylesheet" href="' . AUSBILDUNG_CSS . '">';
+            echo '<link rel="stylesheet" href="' . EDUCATION_CSS . '">';
             break;
         case 'contact':
             echo '<link rel="stylesheet" href="' . CONTACT_CSS . '">';
