@@ -20,6 +20,8 @@ define('INDEX_CSS', CSS_PATH . 'index.css');
 define('IMAGE_PATH', 'images/');
 define('PROBEBILD_01', IMAGE_PATH . 'probebild1.png');
 define('PROBEBILD_02', IMAGE_PATH . 'probebild2.png');
+define('WILLKOMMEN', IMAGE_PATH . 'willkommenlogo.png');
+define('PROFILE_PICTURE', IMAGE_PATH . 'profilepicture2.jpg');
 
 // Funktionspfade
 define('HELPER_PATH', __DIR__ . '/../helpers/');

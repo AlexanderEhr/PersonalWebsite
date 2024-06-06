@@ -1,27 +1,15 @@
-/* Globale Stile für den Body */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-/* Stile für das Main-Tag */
-main {
-    padding: 20px;
-}
 
 /* Stile für die Games-Sektion */
 .games-section {
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #F6F5F2;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .games-section h1 {
-    color: #333333;
+    color: #1A2130; /* Textfarbe */
     margin-bottom: 20px;
 }
 
@@ -31,16 +19,16 @@ main {
 }
 
 .game h2 {
-    color: #3498db;
+    color: #83B4FF; /* Textfarbe */
     margin-bottom: 10px;
 }
 
 .game p {
-    color: #555555;
+    color: #5A72A0; /* Textfarbe */
 }
 
 .game a {
-    color: #3498db;
+    color: #83B4FF; /* Linkfarbe */
     text-decoration: none;
 }
 
@@ -57,18 +45,18 @@ main {
 .code-examples section {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #f9f9f9;
+    background-color: #F6F5F2; /* Box-Hintergrundfarbe */
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 .code-examples h3 {
-    color: #2c3e50;
+    color: #5A72A0; /* Textfarbe */
     margin-bottom: 10px;
 }
 
 .code-examples pre {
-    background-color: #333;
+    background-color: #1A2130; /* Hintergrundfarbe für Codeblock */
     color: #fff;
     padding: 10px;
     border-radius: 5px;

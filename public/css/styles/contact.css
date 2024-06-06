@@ -4,6 +4,7 @@
 
 #contact h2 {
     margin-bottom: 20px;
+    color: #1A2130; /* Textfarbe */
 }
 
 .contact-container {
@@ -14,7 +15,7 @@
 }
 
 .contact-box {
-    background-color: #f9f9f9;
+    background-color: #F6F5F2; /* Box-Hintergrundfarbe */
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 45%;
@@ -41,12 +42,12 @@
 }
 
 .contact-box-front {
-    background-color: #fff;
+    background-color: #F6F5F2; /* Front-Hintergrundfarbe */
     transform: rotateY(0deg);
 }
 
 .contact-box-back {
-    background-color: #f0f0f0;
+    background-color: #F6F5F2; /* Back-Hintergrundfarbe */
     transform: rotateY(180deg);
 }
 
@@ -75,6 +76,7 @@
 .contact-box-title {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: #1A2130; /* Textfarbe */
 }
 
 .contact-box-description ul {
@@ -87,7 +89,7 @@
 }
 
 .contact-box-description a {
-    color: #3498db;
+    color: #83B4FF; /* Linkfarbe */
     text-decoration: none;
 }
 
@@ -101,4 +103,5 @@
         margin-bottom: 20px;
     }
 }
+
 

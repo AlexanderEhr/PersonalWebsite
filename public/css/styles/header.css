@@ -1,21 +1,77 @@
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #5A72A0; /* Primärfarbe */
+    color: #1A2130; /* Textfarbe */
     padding: 20px;
-    text-align: center;
 }
 
-nav ul {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-intro-text {
+    display: flex;
+    align-items: center;
+}
+
+.blue-square {
+    width: 20px;
+    height: 20px;
+    background-color: #83B4FF; /* Blaue Farbe */
+    margin-right: 10px;
+}
+
+.name-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1A2130; /* Textfarbe */
+    margin-right: 10px; /* Abstand nach rechts */
+}
+
+.name-text a {
+    color: #1A2130; /* Textfarbe */
+    text-decoration: none;
+}
+
+.name-text a:hover {
+    color: #83B4FF; /* Hover-Farbe */
+}
+
+.slash {
+    margin: 0 10px;
+    color: #1A2130; /* Textfarbe */
+}
+
+.role-text {
+    font-size: 1.2em;
+    color: #1A2130; /* Textfarbe */
+}
+
+.main-nav {
+    flex: 2;
+    text-align: right;
+}
+
+.main-nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
-nav ul li {
+.main-nav ul li {
     display: inline;
     margin-right: 10px;
 }
 
-nav ul li a {
-    color: #fff;
+.main-nav ul li a {
+    color: #1A2130; /* Textfarbe */
+    text-decoration: none;
+    position: relative;
+    transition: color 0.4s ease; /* Sanfter Farbwechsel */
+}
+
+.main-nav ul li a:hover {
+    color: #83B4FF; /* Farbe bei Hover */
     text-decoration: none;
 }

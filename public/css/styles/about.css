@@ -1,7 +1,6 @@
-/* Globale Stile */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #F6F5F2; /* Anpassung der Hintergrundfarbe */
     margin: 0;
     padding: 0;
 }
@@ -13,7 +12,7 @@ main {
 /* Über mich Sektion */
 .about-section {
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #F6F5F2;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -22,7 +21,7 @@ main {
 .about-section h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333333;
+    color: #1A2130;
 }
 
 .about-container {
@@ -35,15 +34,15 @@ main {
 }
 
 .about-category h3 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
+    color: #5A72A0;
+    border-bottom: 2px solid #83B4FF;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
 
 /* Feedback Stile */
 .feedback-item {
-    background-color: #f9f9f9;
+    background-color: #F6F5F2;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -54,7 +53,7 @@ main {
     margin: 0;
     padding: 0;
     font-style: italic;
-    color: #555555;
+    color: #1A2130;
 }
 
 .feedback-item footer {
@@ -66,7 +65,7 @@ main {
 
 /* Karriere Stile */
 .career-item {
-    background-color: #f9f9f9;
+    background-color: #F6F5F2;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -75,17 +74,17 @@ main {
 
 .career-item h4 {
     margin: 0 0 5px;
-    color: #3498db;
+    color: #83B4FF;
 }
 
 .career-item p {
     margin: 5px 0;
-    color: #555555;
+    color: #1A2130;
 }
 
 /* Hobby Stile */
 .hobby-item {
-    background-color: #f9f9f9;
+    background-color: #F6F5F2;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -94,12 +93,12 @@ main {
 
 .hobby-item h4 {
     margin: 0 0 5px;
-    color: #3498db;
+    color: #83B4FF;
 }
 
 .hobby-item p {
     margin: 5px 0;
-    color: #555555;
+    color: #1A2130;
 }
 
 /* Responsive Design */

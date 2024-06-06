@@ -1,19 +1,8 @@
-/* Globale Stile */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    padding: 20px;
-}
 
 /* Ausbildung Sektion */
 .ausbildung-section {
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #F6F5F2;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -22,7 +11,7 @@ main {
 .ausbildung-section h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333333;
+    color: #1A2130; /* Textfarbe */
 }
 
 .inhalte-article {
@@ -35,8 +24,8 @@ main {
 }
 
 .ausbildung-category h3 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
+    color: #5A72A0; /* Textfarbe */
+    border-bottom: 2px solid #83B4FF; /* Randfarbe */
     padding-bottom: 5px;
 }
 
@@ -44,18 +33,18 @@ main {
 .ausbildung-course {
     margin-top: 15px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #F6F5F2; /* Box-Hintergrundfarbe */
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 .ausbildung-course h4 {
-    color: #3498db;
+    color: #83B4FF; /* Textfarbe */
     margin-bottom: 10px;
 }
 
 .ausbildung-course p {
-    color: #555555;
+    color: #1A2130; /* Textfarbe */
 }
 
 /* Responsive Design */
