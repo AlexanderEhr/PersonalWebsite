@@ -25,7 +25,6 @@
                             <li><a href="about.php">Über mich</a></li>
                             <li><a href="education.php">Ausbildung</a></li>
                             <li><a href="contact.php">Kontakt</a></li>
-                            <li><a href="games.php">Some code</a></li>
                         </ul>
                     </nav>
                 </div>

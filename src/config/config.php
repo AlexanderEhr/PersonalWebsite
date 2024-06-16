@@ -23,6 +23,9 @@ define('PROBEBILD_02', IMAGE_PATH . 'probebild2.png');
 define('WILLKOMMEN', IMAGE_PATH . 'willkommenlogo.png');
 define('PROFILE_PICTURE', IMAGE_PATH . 'profilepicture2.jpg');
 
+// Pfade zu Videos
+define('VID_PATH', 'video/');
+define('TEST_VID', VID_PATH . 'testVid.mp4');
 // Funktionspfade
 define('HELPER_PATH', __DIR__ . '/../helpers/');
 require_once HELPER_PATH . 'titelFunktion.php';
