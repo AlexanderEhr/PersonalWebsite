@@ -10,13 +10,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $betreff = htmlspecialchars(trim($_POST["betreff"]));
     $nachricht = htmlspecialchars(trim($_POST["nachricht"]));
 
-    $datei_pfad = __DIR__ . '/../data/messages.txt'; // Pfad zur Datei
+    $datei_pfad = 'data/messages.txt'; // Pfad zur Datei
 
-    $eintrag = "Vorname: $vorname\nNachname: $nachname\nE-Mail: $email\nBetreff: $betreff\nNachricht: $nachricht\n\n";
+    // Zusammenstellen der Nachrichtendaten in einem Array
+    $neue_nachricht = [
+        'id' => uniqid(),  // Generiert eine eindeutige ID
+        'vorname' => $vorname,
+        'nachname' => $nachname,
+        'email' => $email,
+        'betreff' => $betreff,
+        'nachricht' => $nachricht,
+        'datum' => date("Y-m-d H:i:s")  // Datum und Zeit der Nachricht
+    ];
 
-    file_put_contents($datei_pfad, $eintrag, FILE_APPEND);
+     // Überprüfen, ob die Datei existiert und Nachrichten darin speichern
+     try {
+        if (file_exists($datei_pfad)) {
+            // Lesen und Entschlüsseln der gespeicherten Daten
+            $daten = unserialize(file_get_contents($datei_pfad));
+            // Hinzufügen der neuen Nachricht zum Array
+            $daten[] = $neue_nachricht;
+            // Speichern der aktualisierten Daten in der Datei
+            file_put_contents($datei_pfad, serialize($daten));
+        } else {
+            // Erstellen der Datei und Speichern der ersten Nachricht, falls die Datei noch nicht existiert
+            file_put_contents($datei_pfad, serialize([$neue_nachricht]));
+        }
 
-    echo "<script>alert('Ihre Nachricht wurde erfolgreich gesendet.'); window.location.href='contact.php';</script>";
+        echo "<script>alert('Ihre Nachricht wurde erfolgreich gesendet.'); window.location.href='contact.php';</script>";
+    } catch (Exception $e) {
+        echo "Fehler beim Speichern der Nachricht: ",  $e->getMessage(), "\n";
+    }
 }
 
 ?>
