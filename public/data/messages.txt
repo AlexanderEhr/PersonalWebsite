@@ -1,0 +1,5 @@
+a:2:{i:0;a:7:{s:2:"id";s:13:"666f726296602";s:7:"vorname";s:4:"alex";s:8:"nachname";s:4:"dasd";s:5:"email";s:17:"alex.ehrl@cbd.com";s:7:"betreff";s:7:"asdsdsa";s:9:"nachricht";s:48:"asdasdhblaisdglkajsd
+
+asldhajishda
+ahsdijhads";s:5:"datum";s:19:"2024-06-17 01:16:50";}i:1;a:7:{s:2:"id";s:13:"666f73308d829";s:7:"vorname";s:5:"Peter";s:8:"nachname";s:5:"klaus";s:5:"email";s:17:"peter.klaus@de.de";s:7:"betreff";s:5:"hallo";s:9:"nachricht";s:20:"jo jij
+&lt;3773&gt;";s:5:"datum";s:19:"2024-06-17 01:20:16";}}

@@ -1,5 +1,44 @@
+<<<<<<< HEAD
 
 /* Ausbildung Sektion */
+=======
+/* Ausbildung Sektion */
+
+.education-main-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-blue-square {
+    width: 20px;
+    height: 20px;
+    background-color: #83B4FF; /* Blaue Farbe */
+    margin-right: 10px;
+}
+
+.kfm-course {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #F6F5F2; /* Box-Hintergrundfarbe */
+    border: 1px solid #838383;
+    border-radius: 5px;
+}
+
+/* Versteckter Text mit Übergang */
+.hidden-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+}
+
+.ausbildung-course:hover .hidden-text,
+.kfm-course:hover .hidden-text {
+    max-height: 500px;
+}
+
+/* Sektion Ausbildung */
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 .ausbildung-section {
     padding: 20px;
     background-color: #F6F5F2;
@@ -14,13 +53,24 @@
     color: #1A2130; /* Textfarbe */
 }
 
+<<<<<<< HEAD
 .inhalte-article {
     margin-top: 20px;
+=======
+/* Artikel Inhalte */
+.inhalte-article {
+    margin: 20px;
+    padding-left: 15%;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 }
 
 /* Kategorie Stile */
 .ausbildung-category {
     margin-bottom: 30px;
+<<<<<<< HEAD
+=======
+    width: 80%;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 }
 
 .ausbildung-category h3 {
@@ -29,12 +79,23 @@
     padding-bottom: 5px;
 }
 
+<<<<<<< HEAD
+=======
+.ausbildung-category h2 {
+    text-align: left;
+}
+
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 /* Kurs Stile */
 .ausbildung-course {
     margin-top: 15px;
     padding: 10px;
     background-color: #F6F5F2; /* Box-Hintergrundfarbe */
+<<<<<<< HEAD
     border: 1px solid #ddd;
+=======
+    border: 1px solid #838383;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
     border-radius: 5px;
 }
 

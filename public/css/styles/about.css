@@ -9,7 +9,37 @@ main {
     padding: 20px;
 }
 
+<<<<<<< HEAD
 /* Über mich Sektion */
+=======
+.about-main-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-blue-square {
+    width: 20px;
+    height: 20px;
+    background-color: #83B4FF; /* Blaue Farbe */
+    margin-right: 10px;
+}
+
+/* Über mich Sektion */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Höhe anpassen, je nach Bedarf */
+}
+
+.video-container video {
+    max-width: 70%;
+    height: auto;
+}
+
+
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 .about-section {
     padding: 20px;
     background-color: #F6F5F2;
@@ -33,6 +63,13 @@ main {
     margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
+=======
+.about-category h2 {
+    text-align: left;
+}
+
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 .about-category h3 {
     color: #5A72A0;
     border-bottom: 2px solid #83B4FF;
@@ -43,7 +80,11 @@ main {
 /* Feedback Stile */
 .feedback-item {
     background-color: #F6F5F2;
+<<<<<<< HEAD
     border: 1px solid #ddd;
+=======
+    border: 1px solid #838383;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 15px;
@@ -58,7 +99,11 @@ main {
 
 .feedback-item footer {
     text-align: right;
+<<<<<<< HEAD
     color: #888888;
+=======
+    color: #ffffff;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
     font-size: 0.9em;
     margin-top: 10px;
 }
@@ -66,7 +111,11 @@ main {
 /* Karriere Stile */
 .career-item {
     background-color: #F6F5F2;
+<<<<<<< HEAD
     border: 1px solid #ddd;
+=======
+    border: 1px solid #838383;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 15px;
@@ -85,7 +134,11 @@ main {
 /* Hobby Stile */
 .hobby-item {
     background-color: #F6F5F2;
+<<<<<<< HEAD
     border: 1px solid #ddd;
+=======
+    border: 1px solid #838383;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 15px;
