@@ -1,16 +1,31 @@
 /* Hauptcontainer */
 .main-container {
+    position: relative;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    
+}
+
+/* Farbiger Hintergrund */
+.color-underlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgb(186, 235, 255); /* Leichtes Blau mit Transparenz */
+    
 }
 
 /* Willkommen Sektion */
 .welcome-section {
-    padding: 40px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(203, 224, 255); /* Hintergrundfarbe mit leichter Transparenz */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.329);
+    text-align: center;
+    position: relative;
+    
 }
 
 .welcome-container {
@@ -18,13 +33,14 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap; /* Damit sich die Elemente bei kleinen Bildschirmen umbrechen */
 }
 
 .profile-card {
-    background-color: #d1e5ff;
+    background-color: #f1f1f1;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.267);
     text-align: center;
     max-width: 300px;
     margin-right: 20px;
@@ -42,7 +58,7 @@
 }
 
 .profile-info p {
-    color: #83B4FF;
+    color: #0053cf;
 }
 
 .welcome-text {
@@ -57,7 +73,7 @@
 
 .welcome-text p {
     font-size: 1.2em;
-    color: #5A72A0;
+    color: #2d77ff;
 }
 
 .action-buttons {
@@ -74,12 +90,12 @@
 }
 
 .btn-primary {
-    background-color: #83B4FF;
+    background-color: #4780d6;
     color: #FFF;
 }
 
 .btn-primary:hover {
-    background-color: #5A72A0;
+    background-color: #3b5992;
 }
 
 .btn-secondary {
@@ -99,10 +115,6 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .main-container, .welcome-section, .introduction-section, .highlights-section, .additional-info-section, .contact-section {
-        padding: 15px;
-    }
-
     .welcome-container {
         flex-direction: column;
         align-items: center;
@@ -113,7 +125,19 @@
         margin-bottom: 20px;
     }
 
-    .highlight-item, .info-item {
-        padding: 10px;
+    .welcome-text {
+        text-align: center;
+    }
+
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary, .btn-secondary {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
     }
 }

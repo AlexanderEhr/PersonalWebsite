@@ -4,6 +4,7 @@ include HEADER_PATH;
 ?>
 
 <main>
+    <div id="color-underlay" class="under-overlay"></div>
     <div id="main-container" class="main-container">
         <section id="welcome" class="welcome-section">
             <div class="welcome-container">
@@ -13,7 +14,7 @@ include HEADER_PATH;
                     </div>
                     <div class="profile-info">
                         <h2>Alexander Ehrlich</h2>
-                        <p>Anwendungsentwickler</p>
+                        <p>Anwendungsentwickler<br>Certified Scrum Master</p>
                     </div>
                 </div>
                 <div class="welcome-text">

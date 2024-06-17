@@ -20,7 +20,10 @@
                         <p class="role-text">Anwendungsentwickler</p>
                     </div>
                     <nav class="main-nav">
-                        <ul>
+                        <button class="nav-toggle" aria-label="Navigation umschalten">
+                            <span class="nav-icon"></span>
+                        </button>
+                        <ul class="nav-list">
                             <li><a href="index.php">Home</a></li>
                             <li><a href="about.php">Über mich</a></li>
                             <li><a href="education.php">Ausbildung</a></li>

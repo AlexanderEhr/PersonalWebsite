@@ -18,8 +18,8 @@ define('INDEX_CSS', CSS_PATH . 'index.css');
 
 // Pfade zu Bildern
 define('IMAGE_PATH', 'images/');
-define('PROBEBILD_01', IMAGE_PATH . 'probebild1.png');
-define('PROBEBILD_02', IMAGE_PATH . 'probebild2.png');
+define('INSTAICON', IMAGE_PATH . 'istaicon.png');
+define('GITHUBICON', IMAGE_PATH . 'githubicon.png');
 define('WILLKOMMEN', IMAGE_PATH . 'willkommenlogo.png');
 define('PROFILE_PICTURE', IMAGE_PATH . 'profilepicture2.jpg');
 
@@ -27,7 +27,7 @@ define('PROFILE_PICTURE', IMAGE_PATH . 'profilepicture2.jpg');
 
 // Pfade zu Videos
 define('VID_PATH', 'video/');
-define('TEST_VID', VID_PATH . 'testVid.mp4');
+define('TEST_VID', VID_PATH . 'alexVorstellung.mp4');
 
 
 // Funktionspfade

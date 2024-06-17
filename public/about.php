@@ -58,7 +58,7 @@ include HEADER_PATH;
                     <p><strong>CBW College Berufliche Weiterbildung GmbH, Hamburg</strong></p>
                     <p>Seit 05/2023 - Heute</p>
                     <p>Relationale Datenbanken/SQL, Hardware, Cloud Computing, Scrum, Python, Java, php, HTML-CSS und Javascript <br>
-                        • Zertifikate: Scrum Master PSM 1 von Scrum.org. Vrstl. PCAP™ Certified Associate Python Programmer. Vrstl. AWS Certified Cloud Practitioner.
+                        • Zertifikate: Professional Scrum Master I Scrum.org. Vrstl. PCAP™ Certified Associate Python Programmer. Vrstl. AWS Certified Cloud Practitioner.
                         Vrstl. Exam 1Z0-811: Java Foundations</p>
                 </article>
                 

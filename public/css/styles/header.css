@@ -14,7 +14,13 @@ header {
     display: flex;
     align-items: center;
 }
-
+.site-header-wrapper{
+    padding: 20px;
+    background-color: #F6F5F2;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
 .blue-square {
     width: 20px;
     height: 20px;
@@ -53,6 +59,19 @@ header {
     text-align: right;
 }
 
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: auto;
+}
+
 .main-nav ul {
     list-style-type: none;
     padding: 0;
@@ -74,4 +93,45 @@ header {
 .main-nav ul li a:hover {
     color: #83B4FF; /* Farbe bei Hover */
     text-decoration: none;
+}
+
+/* Responsive Design für mobile Geräte */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-intro-text {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .name-text, .role-text {
+        font-size: 1.2em;
+    }
+
+    .main-nav {
+        width: 100%;
+        text-align: left;
+    }
+
+    .main-nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .main-nav ul li a {
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+    }
 }

@@ -2,9 +2,7 @@ footer {
     background-color: #5A72A0; /* Sekundärfarbe */
     color: #1A2130; /* Textfarbe */
     text-align: center;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px; /* Vereinfachtes Padding */
 }
 
 .footer-container {
@@ -13,19 +11,21 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .text-container-footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding-left: 20px;
 }
-.copyrigth-text-footer {
+
+.copyright-text-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .site-text-footer {
     display: flex;
     align-items: center;
@@ -40,6 +40,7 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 40%;
+    flex-wrap: wrap; /* Ermöglicht das Umfließen der Elemente */
 }
 
 .container-text-footer-phone,
@@ -49,9 +50,39 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 10px; /* Abstand zwischen den Elementen */
 }
 
 .footer-number-github img {
     width: 20px;
     vertical-align: middle;
+}
+
+/* Responsive Design für mobile Geräte */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .data-container-footer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container-text-footer-phone,
+    .container-text-footer-email,
+    .container-text-footer-github {
+        margin-bottom: 15px; /* Mehr Abstand zwischen den Elementen */
+    }
+
+    .footer-text-phone-font,
+    .footer-text-email-font,
+    .footer-text-github-font {
+        font-size: 1.2em; /* Größere Schriftgröße für mobile Geräte */
+    }
+
+    .footer-number-phone-font,
+    .footer-number-email-font {
+        font-size: 1em; /* Größere Schriftgröße für mobile Geräte */
+    }
 }
