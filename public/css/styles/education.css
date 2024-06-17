@@ -1,0 +1,64 @@
+
+/* Ausbildung Sektion */
+.ausbildung-section {
+    padding: 20px;
+    background-color: #F6F5F2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.ausbildung-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1A2130; /* Textfarbe */
+}
+
+.inhalte-article {
+    margin-top: 20px;
+}
+
+/* Kategorie Stile */
+.ausbildung-category {
+    margin-bottom: 30px;
+}
+
+.ausbildung-category h3 {
+    color: #5A72A0; /* Textfarbe */
+    border-bottom: 2px solid #83B4FF; /* Randfarbe */
+    padding-bottom: 5px;
+}
+
+/* Kurs Stile */
+.ausbildung-course {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #F6F5F2; /* Box-Hintergrundfarbe */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ausbildung-course h4 {
+    color: #83B4FF; /* Textfarbe */
+    margin-bottom: 10px;
+}
+
+.ausbildung-course p {
+    color: #1A2130; /* Textfarbe */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ausbildung-section {
+        padding: 15px;
+    }
+
+    .ausbildung-category {
+        margin-bottom: 20px;
+    }
+
+    .ausbildung-course {
+        margin-top: 10px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,119 @@
+/* Hauptcontainer */
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Willkommen Sektion */
+.welcome-section {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile-card {
+    background-color: #F6F5F2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2 {
+    color: #1A2130;
+    margin: 10px 0;
+}
+
+.profile-info p {
+    color: #83B4FF;
+}
+
+.welcome-text {
+    max-width: 600px;
+}
+
+.welcome-text h1 {
+    font-size: 2.5em;
+    color: #1A2130;
+    margin-bottom: 10px;
+}
+
+.welcome-text p {
+    font-size: 1.2em;
+    color: #5A72A0;
+}
+
+.action-buttons {
+    margin: 20px 0;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #83B4FF;
+    color: #FFF;
+}
+
+.btn-primary:hover {
+    background-color: #5A72A0;
+}
+
+.btn-secondary {
+    background-color: #FFF;
+    color: #83B4FF;
+    border: 2px solid #83B4FF;
+}
+
+.btn-secondary:hover {
+    background-color: #83B4FF;
+    color: #FFF;
+}
+
+.welcome-description {
+    color: #1A2130;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-container, .welcome-section, .introduction-section, .highlights-section, .additional-info-section, .contact-section {
+        padding: 15px;
+    }
+
+    .welcome-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-card {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .highlight-item, .info-item {
+        padding: 10px;
+    }
+}
