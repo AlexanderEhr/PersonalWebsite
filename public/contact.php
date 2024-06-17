@@ -46,68 +46,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <main>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <div class="contact-header">
-        <h2>Kontakt</h2>
-        <p>Sie können mich über die folgenden Links erreichen oder meine PDFs herunterladen.</p>
-    </div>
-    
-    <section id="contact" class="contact-section">
-        <!-- Container für die neuen Elemente -->
-        <div class="contact-container">
-            <!-- Erste Box -->
-            <div class="contact-box" id="online-profile" tabindex="0">
-                <div class="contact-box-layer contact-box-front">
-                    <div class="contact-box-overlay">
-                        <div class="contact-box-inner">
-                        <img src="<?php echo PROBEBILD_01; ?>" alt="Online Profile Image" class="contact-box-image">    
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-box-layer contact-box-back">
-                    <div class="contact-box-overlay">
-                        <div class="contact-box-inner">
-                            <h3 class="contact-box-title">Online-Profile</h3>
-                            <div class="contact-box-description">
-                                <ul>
-                                    <li><a href="https://github.com/AlexanderEhr" target="_blank">Mein GitHub-Profil</a></li>
-                                    <!-- Weitere Online-Profile hier hinzufügen -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Zweite Box -->
-            <div class="contact-box" id="downloads" tabindex="0">
-                <div class="contact-box-layer contact-box-front">
-                    <div class="contact-box-overlay">
-                        <div class="contact-box-inner">
-                            <img src="<?php echo PROBEBILD_02; ?>" alt="Online Profile Image" class="contact-box-image">
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-box-layer contact-box-back">
-                    <div class="contact-box-overlay">
-                        <div class="contact-box-inner">
-                            <h3 class="contact-box-title">Downloads</h3>
-                            <div class="contact-box-description">
-                                <ul>
-                                    <li><a href="path/to/pdf1.pdf" download="pdf1.pdf">Lebenslauf</a></li>
-                                    <li><a href="path/to/pdf2.pdf" download="pdf2.pdf">Zertifikate</a></li>
-                                    <!-- Weitere PDFs hier hinzufügen -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-=======
-=======
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
         <div id="headline-contact" class="contact-main-headline">
             <span class="contact-blue-square"></span>
             <h2>Kontakt</h2>
@@ -138,11 +76,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <button type="submit">Absenden</button>
         </form>
-            
-<<<<<<< HEAD
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
-=======
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
         </div>
     </section>
 </main>

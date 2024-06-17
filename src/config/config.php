@@ -29,9 +29,6 @@ define('PROFILE_PICTURE', IMAGE_PATH . 'profilepicture2.jpg');
 define('VID_PATH', 'video/');
 define('TEST_VID', VID_PATH . 'testVid.mp4');
 
-// Pfade zu Videos
-define('VID_PATH', 'video/');
-define('TEST_VID', VID_PATH . 'testVid.mp4');
 
 // Funktionspfade
 define('HELPER_PATH', __DIR__ . '/../helpers/');

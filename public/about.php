@@ -7,13 +7,7 @@ include HEADER_PATH;
 
 <main>
     <section id="about" class="about-section">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <h2>Über mich</h2>
-        <p>Hier finden Sie Informationen über meine Erfahrungen und meine Karriere.</p>
-=======
-=======
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+
         <div id="headline-about" class="about-main-headline">
             <span class="about-blue-square"></span>
             <h2>Über mich</h2>
@@ -25,42 +19,11 @@ include HEADER_PATH;
                 <source src="<?php echo TEST_VID; ?>" type="video/mp4">
             </video>
         </div>
-<<<<<<< HEAD
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
-=======
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 
         <div class="about-container">
             <!-- Bereich für Kommentare und Lob -->
             <section id="feedback" class="about-category">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <h3>Kommentare und Lob</h3>
-                <p>Hier werde ich Kommentare und Lob von alten Arbeitgebern und Freunden zeigen.</p>
-                <!-- Beispielkommentar -->
-                <article class="feedback-item">
-                    <blockquote>
-                        <p>"Alexander ist ein äußerst talentierter und engagierter Entwickler. Seine Arbeitsethik und Fähigkeiten sind außergewöhnlich."</p>
-                        <footer>- Ehemaliger Arbeitgeber</footer>
-                    </blockquote>
-                </article>
-                <!-- Weitere Kommentare hier hinzufügen -->
-            </section>
-
-            <!-- Bereich für meinen Werdegang -->
-            <section id="career" class="about-category">
-                <h3>Mein Werdegang</h3>
-                <p>In diesem Abschnitt werde ich über meine beruflichen Erfahrungen und meinen Karriereweg schreiben.</p>
-                <!-- Beispiel für beruflichen Werdegang -->
-                <article class="career-item">
-                    <h4>Softwareentwickler bei XYZ GmbH</h4>
-                    <p>Januar 2019 - Heute</p>
-                    <p>In dieser Rolle bin ich für die Entwicklung und Wartung von Webanwendungen verantwortlich.</p>
-                </article>
-                <!-- Weitere Stationen hier hinzufügen -->
-=======
-=======
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+    
                 <h3><strong>Kommentare</strong></h3>
                 <p>Was ehemalige Arbeitgeber über mich sagen.</p>
                 <!-- Beispielkommentar -->
@@ -131,39 +94,21 @@ include HEADER_PATH;
                         • Beratung und Verkauf von hochwertigen Textilprodukten <br>
                         • Personaleinsatzplanung</p>
                 </article>
-                
+
                 <article class="career-item">
                 <h3><strong>Automobilfertiger</strong></h3>
                     <p><strong>Porsche Leipzig GmbH</strong></p>
                     <p>2014 - 2016</p>
                     <p>• Montagearbeiten, Fahrzeugfinish, Lacknacharbeit</p>
                 </article>
+                
                 <article class="career-item">
                 <h3><strong>Automobilfertiger</strong></h3>
                     <p><strong>Volkswagen Nutzfahrzeuge Hannover</strong></p>
                     <p>2012 - 2014</p>
                     <p>• Montagearbeiten, Fahrzeugfinish, Lacknacharbeit</p>
                 </article>
-<<<<<<< HEAD
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
-=======
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
-            </section>
 
-            <!-- Bereich für Hobbys -->
-            <section id="hobbies" class="about-category">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <h3>Hobbys</h3>
-                <p>In meiner Freizeit beschäftige ich mich mit verschiedenen Aktivitäten, die ich hier vorstellen werde.</p>
-                <!-- Beispielhobby -->
-                <article class="hobby-item">
-                    <h4>Fotografie</h4>
-                    <p>Ich liebe es, in meiner Freizeit zu fotografieren und Momente festzuhalten.</p>
-                </article>
-=======
-=======
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
                 <h2>Hobbys</h2>
                 <article class="hobby-item">
                     <h3>Mit Freunden oder Familie treffen</h3>
@@ -172,15 +117,9 @@ include HEADER_PATH;
                     <p>Fitness und Schwimmen</p>
                     <h3>Lesen & Games</h3>
                     <p>Bevorzugte Autoren Nassim Nicholas Taleb und Yuval Noah Harari.<br>
-                        Ab und zu auch mal mit Freunden Zocken, gerne auch Spiele aus der jugend wie Command & Conquer.</p>
-
+                        Ab und zu auch mal mit Freunden Zocken, gerne auch Spiele aus der jugend wie Command & Conquer.
+                    </p>
                 </article>
-
-<<<<<<< HEAD
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
-=======
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
-                <!-- Weitere Hobbys hier hinzufügen -->
             </section>
         </div>
     </section>
