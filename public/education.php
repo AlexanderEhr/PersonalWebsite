@@ -6,6 +6,7 @@ include HEADER_PATH;
 <main>
     <section id="ausbildung-cbw" class="ausbildung-section">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h2>Ausbildung bei CBW</h2>
         <p>Eine Auswahl meiner Projekte und Arbeiten.</p>
 
@@ -87,6 +88,8 @@ include HEADER_PATH;
                     <h4 id="heading-phpb">PHPB Objektorientierte Programmierung mit PHP: Webentwicklung mit PHP</h4>
                     <p>Inhalte dieses Kurses...</p>
 =======
+=======
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 
         <div id="headline-education" class="education-main-headline">
             <span class="education-blue-square"></span>
@@ -201,6 +204,9 @@ include HEADER_PATH;
                 <article id="phpb" class="ausbildung-course" aria-labelledby="heading-phpb">
                     <h3 id="heading-phpb">PHPB Objektorientierte Programmierung mit PHP: Webentwicklung mit PHP</h3>
                     <p></p>
+<<<<<<< HEAD
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+=======
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
                 </article>
             </section>

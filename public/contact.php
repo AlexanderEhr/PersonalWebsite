@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <main>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="contact-header">
         <h2>Kontakt</h2>
         <p>Sie können mich über die folgenden Links erreichen oder meine PDFs herunterladen.</p>
@@ -105,6 +106,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
             </div>
 =======
+=======
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
         <div id="headline-contact" class="contact-main-headline">
             <span class="contact-blue-square"></span>
             <h2>Kontakt</h2>
@@ -136,6 +139,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <button type="submit">Absenden</button>
         </form>
             
+<<<<<<< HEAD
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+=======
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
         </div>
     </section>

@@ -8,9 +8,12 @@ include HEADER_PATH;
 <main>
     <section id="about" class="about-section">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h2>Über mich</h2>
         <p>Hier finden Sie Informationen über meine Erfahrungen und meine Karriere.</p>
 =======
+=======
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
         <div id="headline-about" class="about-main-headline">
             <span class="about-blue-square"></span>
             <h2>Über mich</h2>
@@ -22,11 +25,15 @@ include HEADER_PATH;
                 <source src="<?php echo TEST_VID; ?>" type="video/mp4">
             </video>
         </div>
+<<<<<<< HEAD
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+=======
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 
         <div class="about-container">
             <!-- Bereich für Kommentare und Lob -->
             <section id="feedback" class="about-category">
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <h3>Kommentare und Lob</h3>
                 <p>Hier werde ich Kommentare und Lob von alten Arbeitgebern und Freunden zeigen.</p>
@@ -52,6 +59,8 @@ include HEADER_PATH;
                 </article>
                 <!-- Weitere Stationen hier hinzufügen -->
 =======
+=======
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
                 <h3><strong>Kommentare</strong></h3>
                 <p>Was ehemalige Arbeitgeber über mich sagen.</p>
                 <!-- Beispielkommentar -->
@@ -135,11 +144,15 @@ include HEADER_PATH;
                     <p>2012 - 2014</p>
                     <p>• Montagearbeiten, Fahrzeugfinish, Lacknacharbeit</p>
                 </article>
+<<<<<<< HEAD
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+=======
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
             </section>
 
             <!-- Bereich für Hobbys -->
             <section id="hobbies" class="about-category">
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <h3>Hobbys</h3>
                 <p>In meiner Freizeit beschäftige ich mich mit verschiedenen Aktivitäten, die ich hier vorstellen werde.</p>
@@ -149,6 +162,8 @@ include HEADER_PATH;
                     <p>Ich liebe es, in meiner Freizeit zu fotografieren und Momente festzuhalten.</p>
                 </article>
 =======
+=======
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
                 <h2>Hobbys</h2>
                 <article class="hobby-item">
                     <h3>Mit Freunden oder Familie treffen</h3>
@@ -161,6 +176,9 @@ include HEADER_PATH;
 
                 </article>
 
+<<<<<<< HEAD
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+=======
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
                 <!-- Weitere Hobbys hier hinzufügen -->
             </section>

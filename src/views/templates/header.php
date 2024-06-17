@@ -26,7 +26,10 @@
                             <li><a href="education.php">Ausbildung</a></li>
                             <li><a href="contact.php">Kontakt</a></li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <li><a href="games.php">Some code</a></li>
+=======
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 =======
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
                         </ul>

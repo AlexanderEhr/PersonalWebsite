@@ -10,8 +10,11 @@ main {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Über mich Sektion */
 =======
+=======
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 .about-main-headline {
     display: flex;
     justify-content: center;
@@ -39,6 +42,9 @@ main {
 }
 
 
+<<<<<<< HEAD
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+=======
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 .about-section {
     padding: 20px;
@@ -64,11 +70,17 @@ main {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 .about-category h2 {
     text-align: left;
 }
 
+<<<<<<< HEAD
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+=======
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 .about-category h3 {
     color: #5A72A0;
@@ -81,7 +93,11 @@ main {
 .feedback-item {
     background-color: #F6F5F2;
 <<<<<<< HEAD
+<<<<<<< HEAD
     border: 1px solid #ddd;
+=======
+    border: 1px solid #838383;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 =======
     border: 1px solid #838383;
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
@@ -100,7 +116,11 @@ main {
 .feedback-item footer {
     text-align: right;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #888888;
+=======
+    color: #ffffff;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 =======
     color: #ffffff;
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
@@ -112,7 +132,11 @@ main {
 .career-item {
     background-color: #F6F5F2;
 <<<<<<< HEAD
+<<<<<<< HEAD
     border: 1px solid #ddd;
+=======
+    border: 1px solid #838383;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 =======
     border: 1px solid #838383;
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
@@ -135,7 +159,11 @@ main {
 .hobby-item {
     background-color: #F6F5F2;
 <<<<<<< HEAD
+<<<<<<< HEAD
     border: 1px solid #ddd;
+=======
+    border: 1px solid #838383;
+>>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
 =======
     border: 1px solid #838383;
 >>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
