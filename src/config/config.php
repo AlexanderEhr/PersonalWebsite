@@ -23,18 +23,16 @@ define('PROBEBILD_02', IMAGE_PATH . 'probebild2.png');
 define('WILLKOMMEN', IMAGE_PATH . 'willkommenlogo.png');
 define('PROFILE_PICTURE', IMAGE_PATH . 'profilepicture2.jpg');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
+
 // Pfade zu Videos
 define('VID_PATH', 'video/');
 define('TEST_VID', VID_PATH . 'testVid.mp4');
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
-=======
+
 // Pfade zu Videos
 define('VID_PATH', 'video/');
 define('TEST_VID', VID_PATH . 'testVid.mp4');
->>>>>>> fb063d2c84feb339be8d6a407deae3e4c0bf7752
+
 // Funktionspfade
 define('HELPER_PATH', __DIR__ . '/../helpers/');
 require_once HELPER_PATH . 'titelFunktion.php';
