@@ -1,0 +1,32 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F5F2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#body-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Gesamte Höhe des Viewports */
+}
+
+.body-page-container {
+    width: 100%; /* Maximale Breite der Seite */
+    margin: 0 auto; /* Zentriert die Seite horizontal */
+    padding: 20px; /* Innenabstand */
+    background-color: #F6F5F2; /* Hintergrundfarbe */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatteneffekt */
+    border-radius: 8px; /* Abgerundete Ecken */
+    flex: 1; /* Flex-Eigenschaft zum Füllen des verbleibenden Platzes */
+    box-sizing: border-box; /* Berücksichtigt Padding und Border in der Breite */
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}

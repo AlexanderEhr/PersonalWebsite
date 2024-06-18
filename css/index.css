@@ -1,0 +1,226 @@
+/* Hauptcontainer */
+.main-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* Farbiger Hintergrund */
+.color-underlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #83B4FF; 
+    
+}
+
+/* Willkommen Sektion */
+.welcome-section {
+    padding: 20px;
+    background-color: rgba(179, 210, 255, 0.829); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.329);
+    text-align: center;
+    position: relative;
+    
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap; /* Damit sich die Elemente bei kleinen Bildschirmen umbrechen */
+}
+
+.profile-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.267);
+    text-align: center;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2 {
+    color: #1A2130;
+    margin: 10px 0;
+}
+
+.profile-info p {
+    color: #5376b8;
+}
+
+.welcome-text {
+    max-width: 600px;
+}
+
+.welcome-text h1 {
+    font-size: 2.5em;
+    color: #1A2130;
+    margin-bottom: 10px;
+}
+
+.welcome-text p {
+    font-size: 1.2em;
+    color: #5376b8;
+}
+
+.action-buttons {
+    margin: 20px 0;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4780d6;
+    color: #FFF;
+}
+
+.btn-primary:hover {
+    background-color: #3b5992;
+}
+
+.btn-secondary {
+    background-color: #FFF;
+    color: #83B4FF;
+    border: 2px solid #83B4FF;
+}
+
+.btn-secondary:hover {
+    background-color: #83B4FF;
+    color: #FFF;
+}
+
+.welcome-description {
+    color: #1A2130;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .welcome-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-description{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .profile-card {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .welcome-text {
+        text-align: center;
+    }
+
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary, .btn-secondary {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 460px) {
+    .welcome-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-description{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .profile-card {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .welcome-text {
+        text-align: center;
+    }
+
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary, .btn-secondary {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 350px) {
+    .main-container, .welcome-section, .main-index-container,
+    .body-page-container, .profile-card {
+        margin: 0;
+        padding: 5px;
+    }
+    
+    .profile-card {
+        max-width: 190px;
+        margin-top: 10px;
+    }
+
+    .welcome-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-description{
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: initial;
+    }
+
+    .profile-card {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .welcome-text {
+        text-align: center;
+    }
+
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary, .btn-secondary {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 40%;
+    }
+}
