@@ -1,42 +1,42 @@
-My Personal Website
+My Personal Website https://www.alexander-ehrlich.de
 # MyPersonalWebsite
 
-Willkommen auf meiner persönlichen Website! Diese Website dient als meine Visitenkarte und Bewerbung für ein Praktikum als Anwendungsentwickler. Hier finden Sie Informationen über mich, meine Arbeiten und Zertifizierungen.
+Welcome to my personal website! This site serves as my business card and application for an internship as an application developer. Here you will find information about me, my work, and certifications.
 
-## Inhalt
+## Content
 
-- **Startseite**: Eine kurze Vorstellung meiner Person und meiner Bewerbung.
-- **Über mich**: Detaillierte Informationen über mich und meine bisherigen Erfahrungen.
-- **Portfolio**: Eine Sammlung meiner Projekte und Arbeiten.
-- **Kontakt**: Ein Kontaktformular, über das Sie mich erreichen können.
+- **Homepage**: A brief introduction of myself and my application.
+- **About Me**: Detailed information about me and my previous experiences.
+- **Education**: a collection of my continuing education content.
+- **Contact**: A contact form through which you can reach me.
 
-## Seitenübersicht
+## Page Overview
 
-### Startseite (index.php)
+### Homepage (index.php)
 
-Auf der Startseite stelle ich mich kurz vor und präsentiere meine Bewerbung für ein Praktikum als Anwendungsentwickler. Diese Seite enthält grundlegende Informationen über mich und meine Ziele.
+On the homepage, I briefly introduce myself and present my application for an internship as an application developer. This page contains basic information about me and my goals.
 
-### Über mich (about.php)
+###About Me (about.php)
 
-Auf dieser Seite finden Sie detaillierte Informationen über mich, meine Ausbildung, meine bisherigen Erfahrungen und meine Interessen im Bereich der Anwendungsentwicklung.
+On this page, you will find detailed information about me, my education, my previous experiences, and my interests in the field of application development.
 
-### Portfolio (portfolio.php)
+###Portfolio (portfolio.php)
 
-In meinem Portfolio präsentiere ich eine Auswahl meiner bisherigen Arbeiten. Hier können Sie meine Projekte, Arbeitsproben und andere relevante Arbeiten einsehen. Zudem sind hier meine alten Arbeitsproben und Zertifizierungen als PDF-Dokumente öffentlich einsehbar.
+In my portfolio, I present a selection of my previous works. Here you can view my projects, work samples, and other relevant works. Additionally, my old work samples and certifications are publicly accessible as PDF documents.
 
-### Kontakt (contact.php)
+###Contact (contact.php)
 
-Auf der Kontaktseite finden Sie ein Formular, über das Sie mich direkt erreichen können. Ich freue mich über jede Nachricht und werde so schnell wie möglich antworten.
+On the contact page, you will find a form through which you can reach me directly. I appreciate every message and will respond as quickly as possible.
+
 
 ## Technologie-Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP
-- **Datenbank**: MySQL (optional für erweiterte Funktionen)
-- **Entwicklungsumgebung**: VS Code, XAMPP
+- **Frontend**: PHP, HTML, CSS, JavaScript
+- **Development Environment**: VS Code, XAMPP
 
-## Installation und Nutzung
+## Installation and Usage
 
-1. **Klonen Sie das Repository**:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/AlexanderEhr/PersonalWebsite.git
+   ```
