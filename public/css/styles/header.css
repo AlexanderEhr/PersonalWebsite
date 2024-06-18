@@ -1,8 +1,4 @@
-header {
-    background-color: #5A72A0; /* Primärfarbe */
-    color: #1A2130; /* Textfarbe */
-    padding: 20px;
-}
+
 
 .header-container {
     display: flex;
@@ -24,34 +20,34 @@ header {
 .blue-square {
     width: 20px;
     height: 20px;
-    background-color: #83B4FF; /* Blaue Farbe */
+    background-color: #83B4FF; 
     margin-right: 10px;
 }
 
 .name-text {
     font-size: 1.5em;
     font-weight: bold;
-    color: #1A2130; /* Textfarbe */
-    margin-right: 10px; /* Abstand nach rechts */
+    color: #1A2130; 
+    margin-right: 10px; 
 }
 
 .name-text a {
-    color: #1A2130; /* Textfarbe */
+    color: #1A2130; 
     text-decoration: none;
 }
 
 .name-text a:hover {
-    color: #83B4FF; /* Hover-Farbe */
+    color: #83B4FF; 
 }
 
 .slash {
     margin: 0 10px;
-    color: #1A2130; /* Textfarbe */
+    color: #1A2130; 
 }
 
 .role-text {
     font-size: 1.2em;
-    color: #1A2130; /* Textfarbe */
+    color: #1A2130; 
 }
 
 .main-nav {
@@ -84,14 +80,16 @@ header {
 }
 
 .main-nav ul li a {
-    color: #1A2130; /* Textfarbe */
+    color: #1A2130; 
+    font-size: 1.3em;
+    font-weight: bold;
     text-decoration: none;
     position: relative;
-    transition: color 0.4s ease; /* Sanfter Farbwechsel */
+    transition: color 0.4s ease; 
 }
 
 .main-nav ul li a:hover {
-    color: #83B4FF; /* Farbe bei Hover */
+    color: #83B4FF; 
     text-decoration: none;
 }
 
@@ -102,14 +100,20 @@ header {
         align-items: flex-start;
     }
 
+    .slash{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
     .header-intro-text {
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: flex-start;
         margin-bottom: 10px;
     }
 
     .name-text, .role-text {
         font-size: 1.2em;
+        margin: 0 auto;
     }
 
     .main-nav {

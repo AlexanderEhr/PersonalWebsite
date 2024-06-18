@@ -1,8 +1,12 @@
-footer {
-    background-color: #5A72A0; /* Sekundärfarbe */
-    color: #1A2130; /* Textfarbe */
-    text-align: center;
-    padding: 10px 20px; /* Vereinfachtes Padding */
+
+
+.site-footer-wrapper{
+    padding: 20px;
+    background-color: #F6F5F2;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 0;
+
 }
 
 .footer-container {
@@ -31,7 +35,7 @@ footer {
     align-items: center;
 }
 
-.site-text-footer p, 
+.site-text-footer p,
 .data-container-footer p {
     margin: 5px 0;
 }
@@ -54,14 +58,29 @@ footer {
 }
 
 .footer-number-github img {
-    width: 20px;
-    vertical-align: middle;
+    width: 50px;
+    margin-bottom: 4px;
+}
+
+.footer-text-phone-font,
+.footer-text-email-font,
+.footer-text-github-font {
+    color: #5376b8; 
+    font-size: 1.2em;
+}
+
+.footer-number-phone-font,
+.footer-number-email-font {
+    color: #000000; 
+    font-size: 1em;
+    font-weight: bold;
 }
 
 /* Responsive Design für mobile Geräte */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
+        align-items: flex-start; 
     }
 
     .data-container-footer {
@@ -72,17 +91,24 @@ footer {
     .container-text-footer-phone,
     .container-text-footer-email,
     .container-text-footer-github {
-        margin-bottom: 15px; /* Mehr Abstand zwischen den Elementen */
+        margin-bottom: 15px;
+        padding: 10px;
     }
 
     .footer-text-phone-font,
     .footer-text-email-font,
     .footer-text-github-font {
-        font-size: 1.2em; /* Größere Schriftgröße für mobile Geräte */
+        font-size: 1.0em; 
     }
 
     .footer-number-phone-font,
     .footer-number-email-font {
-        font-size: 1em; /* Größere Schriftgröße für mobile Geräte */
+        font-size: 1em;
+        padding: 5px;
+    }
+    .copyright-text-footer {
+        padding: 10px;
     }
 }
+
+

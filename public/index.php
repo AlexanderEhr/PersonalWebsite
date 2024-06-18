@@ -3,7 +3,7 @@ require_once __DIR__ . '/../src/config/config.php';
 include HEADER_PATH;
 ?>
 
-<main>
+<main id="main-index-container" class="main-index-container">
     <div id="color-underlay" class="under-overlay"></div>
     <div id="main-container" class="main-container">
         <section id="welcome" class="welcome-section">

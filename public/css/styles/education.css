@@ -12,6 +12,17 @@
     margin-right: 10px;
 }
 
+.inhalt-kfm-education, .inhalt-it-education, 
+.inhalt-basicit-education {
+    padding: 20px;
+    background-color: #F6F5F2;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 .kfm-course {
     margin-top: 15px;
     padding: 10px;
@@ -50,14 +61,11 @@
 /* Artikel Inhalte */
 .inhalte-article {
     margin: 20px;
-    padding-left: 15%;
 }
 
 /* Kategorie Stile */
 .ausbildung-category {
     margin-bottom: 30px;
-    width: 80%;
-
 }
 
 .ausbildung-category h3 {
@@ -103,4 +111,26 @@
         margin-top: 10px;
         padding: 8px;
     }
+}
+
+@media (max-width: 460px) {
+    .main-education-container, .inhalte-article, .inhalt-basicit-education,
+     .inhalt-it-education, .inhalt-kfm-education, .body-page-container, 
+     .ausbildung-section {
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width: 350px) {
+    .main-education-container, .inhalte-article, .inhalt-basicit-education,
+     .inhalt-it-education, .inhalt-kfm-education, .body-page-container, 
+     .ausbildung-section {
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+    
 }
