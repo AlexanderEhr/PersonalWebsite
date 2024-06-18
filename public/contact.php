@@ -3,7 +3,7 @@ require_once __DIR__ . '/../src/config/config.php';
 include HEADER_PATH;
 ?>
 
-<main>
+<main id="main-contact-container" class="main-contact-container">
     <div id="headline-contact" class="contact-main-headline">
         <span class="contact-blue-square"></span>
         <h2>Kontakt</h2>

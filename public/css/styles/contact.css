@@ -90,3 +90,23 @@
         font-size: 1em;
     }
 }
+
+@media (max-width: 460px) {
+    .body-page-container, .main-contact-container, .contact-container,
+    .contact-section {
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width: 350px) {
+    .body-page-container, .main-contact-container, .contact-container, 
+    .contact-section {
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+    
+}

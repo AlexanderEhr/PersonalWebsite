@@ -1,4 +1,4 @@
-<div id="body-container" class="body-page-container">
+
     <footer id="site-footer-wrapper" class="site-footer-wrapper" tabindex="">
         <div id="site-footer" class="site-footer" tabindex="">
             <div id="footer-container" class="footer-container">
