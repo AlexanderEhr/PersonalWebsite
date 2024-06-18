@@ -4,45 +4,30 @@ Projektplanung und Design
 
 MyPersonalWebsite/
 │
-├── public/
-│   ├── index.php
-│   ├── about.php
-│   ├── education.php
-│   ├── contact.php
-│   ├── games.php
-│   ├── images/
-│   │   ├── probebild1.png
-│   │   ├── probebild2.png
-│   │   └── (weitere Bilder für die Website)
-│   ├── documents/
-│   │   └── (PDF-Dateien für den Download)
-│   ├── css/
-│   │   ├── styles/
-│   │   │   ├── about.css
-│   │   │   ├── education.css
-│   │   │   ├── contact.css
-│   │   │   ├── footer.css
-│   │   │   ├── games.css
-│   │   │   ├── global.css
-│   │   │   ├── header.css
-│   │   │   ├── index.css
-│   │   │   └── (weitere CSS-Dateien)
-│   │   ├── styles.css
-│   │   └── (weitere CSS-Dateien)
-│   ├── js/
-│   │   ├── main.js
-│   │   └── (weitere JavaScript-Dateien)
+├── index.php
+├── about.php
+├── education.php
+├── contact.php
+├── images/
+│   ├── probebild1.png
+│   ├── probebild2.png
+│   └── (weitere Bilder für die Website)
+├── css/
+│   ├── about.css
+│   ├── education.css
+│   ├── contact.css
+│   ├── footer.css
+│   ├── global.css
+│   ├── header.css
+│   ├── index.css
+│   └── (weitere CSS-Dateien)
+├── js/
+│   ├── main.js
+│   └── (weitere JavaScript-Dateien)
 │
 ├── src/
 │   ├── config/
 │   │   └── config.php
-│   ├── controllers/
-│   │   ├── BaseController.php
-│   │   └── (weitere Controller-Klassen)
-│   ├── models/
-│   │   ├── User.php
-│   │   └── (weitere Model-Klassen)
-│   ├── views/
 │   │   ├── templates/
 │   │   │   ├── header.php
 │   │   │   └── footer.php
@@ -52,68 +37,51 @@ MyPersonalWebsite/
 │   │   ├── utility.php
 │   │   └── titelFunktion.php
 │   └── (weitere PHP-Hilfsklassen)
-│
-├── tests/
-│   ├── (Testdateien für die Anwendung)
-│
 ├── .gitignore
-├── composer.json
-├── package.json
 ├── README.md
 └── TODO.md
 
 
-2. Funktionen und Seiten
+    Functions and Pages
 
-- Home (index.php): Übersicht über Ihre Informationen und Links zu den anderen Seiten.
-- Über mich (about.php): Detaillierte Informationen über Sie und Ihre Erfahrungen.
-- Portfolio (portfolio.php): Eine Galerie oder Liste Ihrer Projekte und Arbeiten.
-- Kontakt (contact.php): Ein Kontaktformular, das E-Mails versendet.
-- Admin-Bereich (optional): Seiten zur Verwaltung von Inhalten.
+    Home (index.php): Overview of your information and links to other pages.
+    About Me (about.php): Detailed information about you and your experiences.
+    Portfolio (portfolio.php): A gallery or list of your projects and works.
+    Contact (contact.php): A contact form that sends emails.
 
-3. Datenstruktur
 
-- Benutzer (User.php): Benutzerdaten für den Admin-Bereich.
-- Projekte (Project.php): Datenstruktur für die Portfolio-Projekte.
+    Design
 
-4. Design
+    Create Wireframes: Sketch the layout of each page.
+    Responsive Design: Use flexible layout and media queries to ensure the website looks good on all devices.
+    Modern UI Frameworks: Consider using frameworks like Bootstrap or Materialize.
 
-- Wireframes erstellen: Skizzieren Sie das Layout jeder Seite.
-- Responsive Design: Verwenden Sie flexibles Layout und Media Queries, um sicherzustellen, dass die Website auf allen Geräten gut aussieht.
-- Moderne UI-Frameworks: Überlegen Sie, ob Sie Frameworks wie Bootstrap oder Materialize verwenden möchten.
+    Technology and Tools
 
-5. Technologie und Werkzeuge
+    Frontend: HTML, CSS, JavaScript.
+    Backend: PHP for server logic and data processing.
+    Database: MySQL for data persistence (optional, for extended functions like the admin area).
+    Security: CSRF and XSS protection, secure data processing, password hashing.
+    SEO: Meta tags, clean URLs, optimized loading times.
 
-- Frontend: HTML, CSS, JavaScript.
-- Backend: PHP für die Server-Logik und Datenverarbeitung.
-- Datenbank: MySQL für Datenpersistenz (optional, für erweiterte Funktionen wie Admin-Bereich).
-- Sicherheit: CSRF- und XSS-Schutz, sichere Datenverarbeitung, Passwort-Hashing.
-- SEO: Meta-Tags, saubere URLs, optimierte Ladezeiten.
+    Development Environment
 
-6. Entwicklungsumgebung
+    VS Code: Main editor for development.
+    XAMPP: Local server for PHP and MySQL development.
+    Git: Version control and collaboration via GitHub.
 
-- VS Code: Haupteditor für die Entwicklung.
-- XAMPP: Lokaler Server für PHP- und MySQL-Entwicklung.
-- Git: Versionskontrolle und Zusammenarbeit über GitHub.
+    Implementation Phase
 
-7. Implementierungsphase
+    Basic Functionality:
+        Build the basic page structure.
+        Implement navigation and the basic layout.
+        Create the contact form with validation and email sending.
+    Additional Functionality:
+        Implement a dynamic portfolio page with PHP.
+        Admin area for managing portfolio projects (optional).
 
-- Basisfunktionalität:
-  - Aufbau der grundlegenden Seitenstruktur.
-  - Implementierung der Navigation und des grundlegenden Layouts.
-  - Erstellung des Kontaktformulars mit Validierung und E-Mail-Versand.
-- Zusätzliche Funktionalitäten:
-  - Implementierung einer dynamischen Portfolio-Seite mit PHP.
-  - Admin-Bereich für die Verwaltung von Portfolio-Projekten (optional).
+    Documentation
 
-8. Testen
-
-- Funktionstests: Testen Sie jede Seite und Funktion auf korrekte Funktionalität.
-- Sicherheitstests: Überprüfen Sie die Sicherheit gegen gängige Angriffe wie SQL-Injection und XSS.
-- Performance-Tests: Überprüfen Sie die Ladezeiten und optimieren Sie bei Bedarf.
-
-9. Dokumentation
-
-- Code-Kommentare: Stellen Sie sicher, dass der Code gut kommentiert ist.
-- Benutzerdokumentation: Eine einfache Anleitung zur Verwendung und Pflege der Website.
-- Entwicklerdokumentation: Details zur Projektstruktur und Entwicklungspraktiken.
+    Code Comments: Ensure the code is well-commented.
+    User Documentation: A simple guide for using and maintaining the website.
+    Developer Documentation: Details about the project structure and development practices.
