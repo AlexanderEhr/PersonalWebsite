@@ -16,15 +16,15 @@ Welcome to my personal website! This site serves as my business card and applica
 
 On the homepage, I briefly introduce myself and present my application for an internship as an application developer. This page contains basic information about me and my goals.
 
-###About Me (about.php)
+## About Me (about.php)
 
 On this page, you will find detailed information about me, my education, my previous experiences, and my interests in the field of application development.
 
-###Portfolio (portfolio.php)
+## Portfolio (portfolio.php)
 
 In my portfolio, I present a selection of my previous works. Here you can view my projects, work samples, and other relevant works. Additionally, my old work samples and certifications are publicly accessible as PDF documents.
 
-###Contact (contact.php)
+## Contact (contact.php)
 
 On the contact page, you will find a form through which you can reach me directly. I appreciate every message and will respond as quickly as possible.
 
